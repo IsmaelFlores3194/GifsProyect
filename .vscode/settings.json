@@ -1,0 +1,18 @@
+{
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "externalTemplate": true,
+            "style": "css",
+            "stylesArray": true,
+            "shadowDom": false,
+            "inlineStyle": false,
+            "skipStyle": false
+        },
+        "angular-component": {
+            "skipChangeDetectionOnPush": false,
+            "skipPathSubfolder": false,
+            "skipDisplayBlock": false,
+            "ngOnInit": false
+        }
+    }
+}
